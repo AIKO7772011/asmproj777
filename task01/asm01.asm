@@ -33,8 +33,8 @@ EXTERN  ReadConsoleInputA@16:NEAR
 EXTERN  ExitProcess@4:NEAR 
  
 ;директивы компоновщику для подключения библиотек 
-includelib c:\masm32\lib\user32.lib 
-includelib c:\masm32\lib\kernel32.lib 
+includelib d:\masm32\lib\user32.lib 
+includelib d:\masm32\lib\kernel32.lib 
 ;------------------------------------------ 
 ;структура для определения событий 
 COOR  STRUC 
